@@ -1,0 +1,244 @@
+/* Paleta de colores https://coolors.co/e63946-f1faee-a8dadc-457b9d-1d3557 */
+
+/*
+Nunito Sans
+Light 300
+Regular 400
+Semi-bold 600
+Bold 700
+*/
+
+body {
+  margin: 0%;
+  background-image: url(./img/background1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/*HEADER*/
+header {
+  background-color: #a8dadc;
+  top: 0px;
+  height: 110px;
+  width: 100%;
+  padding: 0px;
+  display: flex;
+  border: 0 0 5px 0;
+  border-color: black;
+}
+
+.contenidoHeader {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto 0 auto;
+}
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: #1d3557;
+}
+
+.logoHeader {
+  width: auto;
+  height: 100px;
+}
+
+.menu {
+  font-size: 30px;
+  list-style: none;
+  display: block;
+  float: right;
+  margin-top: 35px;
+  text-align: center;
+}
+
+.menu li {
+  padding: 0px 20px 0px;
+  float: left;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.menu a:link,
+.Menu a:visited,
+.menu a:active {
+  color: #1d3557;
+}
+
+/*formulario*/
+.formulario-completo {
+  background: #fff;
+  width: 380px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 50px auto 20px auto;
+}
+
+.cod-form {
+  padding: 10px 40px 40px;
+}
+
+.tituloFormulario {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: normal;
+  margin-bottom: 30px;
+  overflow: hidden;
+  font-family: "Courier New", Courier, monospace;
+  color: #457b9d;
+}
+
+h3 {
+  position: relative;
+  display: inline-block;
+  color: #1d3557;
+  padding: 0 10px;
+}
+
+.cod-form {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+input[type="email"],
+input[type="password"] {
+  border: none;
+  border-bottom: 2px solid #021e26;
+  width: 100%;
+  outline: none;
+  font-size: 14px;
+  color: #021e26;
+  padding-left: 10px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 14px;
+  color: #457b9d;
+  padding-left: 10px;
+  cursor: text;
+  transition: all 0.3s ease;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.formulario-input:focus + label {
+  top: -14px;
+  font-size: 12px;
+  color: #666565;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.active {
+  top: -14px;
+  font-size: 12px;
+  color: #666565;
+}
+
+.error {
+  color: #ff0000;
+}
+
+input[type="submit"] {
+  background: none;
+  border: none;
+  background: #457b9d;
+  color: #fff;
+  width: 100%;
+  font-size: 14px;
+  padding: 10px 0;
+  font-family: "Courier New", Courier, monospace;
+  margin-bottom: 16px;
+  border-radius: 10px;
+  transition: all 0.5s ease;
+}
+
+input[type="submit"]:hover {
+  background: #1d3557;
+}
+
+.input-group > p {
+  color: #1d3557;
+  text-align: center;
+  font-size: 14px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.input-group p > a {
+  text-decoration: none;
+  color: #039be5;
+}
+
+.input-group p > a:hover {
+  text-decoration: underline;
+}
+
+.formularioInicioSesion {
+  display: flex;
+  justify-content: center;
+}
+
+.formularioRegistro {
+  display: flex;
+  justify-content: center;
+}
+
+.ocultar {
+  display: none;
+}
+
+/*FOOTER*/
+.pieDePagina {
+  background-color: #1d3557;
+  height: 110px;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+}
+
+.contenidoPie {
+  width: 750px;
+  height: 110px;
+  margin: 0 auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menuFooter {
+  font-size: 20px;
+  list-style: none;
+  padding-top: 25px;
+  display: flex;
+}
+
+.menuFooter li {
+  padding: 0px 10px 0px;
+  text-align: center;
+  float: left;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.menuFooter a:link,
+.menuFooter a:visited,
+.menuFooter a:active {
+  color: #f1faee;
+}
+
+.contenidoPie img {
+  width: auto;
+  height: 100px;
+  margin-right: 150px;
+  float: right;
+}

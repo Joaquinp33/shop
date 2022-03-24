@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jotapé DEPORTES</title>
+    <link rel="stylesheet" href="./LoginProyectoFinalPriotti.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="contenidoHeader">
+            <div>
+                <a href="./ProyectoFinalPriotti.html"><img class="logoHeader" src="img/LOGO.png" alt="Logo Jotapé"
+                        href="./ProyectoFinalPriotti.html"></a>
+            </div>
+            <div>
+                <ul class="menu">
+                    <li><a href="./ProyectoFinalPriotti.html">Inicio</a></li>
+                    <li><a href="./TiendaProyectoFinalPriotti.html">Tienda</a></li>
+                    <li><a href="#">Mi cuenta</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- LOGIN/REGISTRARSE -->
+    <div class="formulario-completo">
+        <!-- FORMULARIO DE INICIO DE SESIÓN -->
+        <div class="formularioInicioSesion">
+            <form action="#" class="cod-form">
+                <div class="tituloFormulario">
+                    <h3>Iniciar Sesión</h3>
+                </div>
+
+                <div class="input-group">
+                    <input type="email" class="formulario-input" name="formulario-input" id="correo">
+                    <label class="label" for="correo">Correo</label>
+                </div>
+
+                <div class="input-group">
+                    <input type="password" class="formulario-input" name="formulario-input" id="pass">
+                    <label class="label" for="pass">Contraseña</label>
+                </div>
+
+                <div class="input-group">
+                    <input type="submit" class="formulario-input" id="inicioSesion" onclick="getData(event)" value="Iniciar Sesión">
+                    <p>No tenés cuenta? <a href="#" class="alt-form">Ingresá acá</a></p>
+                </div>
+
+            </form>
+        </div>
+
+        <!-- FORMULARIO DE REGISTRO -->
+        <div class="formularioRegistro ocultar">
+            <form action="#" class="cod-form">
+                <div class="tituloFormulario">
+                    <h3>Registrate Gratis</h3>
+                </div>
+
+                <div class="input-group">
+                    <input type="email" class="formulario-input" name="formulario-input" id="reg-correo">
+                    <label class="label" for="reg-correo">Correo</label>
+                </div>
+
+                <div class="input-group">
+                    <input type="password" class="formulario-input" name="formulario-input" id="reg-pass">
+                    <label class="label" for="reg-pass">Contraseña</label>
+                </div>
+
+                <div class="input-group">
+                    <input type="password" class="formulario-input" name="formulario-input" id="reg-rep-pass">
+                    <label class="label" for="reg-rep-pass">Repetir Contraseña</label>
+                </div>
+
+                <div class="input-group">
+                    <input type="submit" class="formulario-input" id="registro" onclick="escribirData(event)" value="Registrate">
+                    <p>Ya tenés cuenta? <a href="#" class="alt-form">Ingresá aquí</a></p>
+                </div>
+
+            </form>
+        </div>
+    </div>
+    <!-- PIE DE PAGINA -->
+    <footer>
+        <div class="pieDePagina">
+            <div class="contenidoPie">
+                <div>
+                    <ul class="menuFooter">
+                        <li><a href="./ProyectoFinalPriotti.html">Inicio</a></li>
+                        <li><a href="./TiendaProyectoFinalPriotti.html">Tienda</a></li>
+                        <li><a href="#">Mi cuenta</a></li>
+                    </ul>
+                </div>
+                <a href="#"><img src="img/LOGO.png" alt="Logo Jotapé"></a>
+            </div>
+        </div>
+    </footer>
+    <script src="./jquery-3.6.0.min.js"></script>
+    <script src="./LoginProyectoFinalPriotti.js"></script>
+</body>
+
+</html>
